@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    padding: 20px 36px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+    max-width: 130px;
+    max-height: 40px;
+}
+
+section {
+    padding: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid--photo {
+    max-width: 700px;
+    align-self: center;
+}
+
+.grid--header {
+    margin-bottom: 16px;
+}
+
+.grid--text {
+    margin-top: 0;
+}
+
